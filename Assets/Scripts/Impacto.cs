@@ -41,7 +41,7 @@ public class Impacto : MonoBehaviour
 
         if (contador > 2f)
         {
-            EditorApplication.isPlaying = false;
+            Application.Quit();
         }
     }
 
